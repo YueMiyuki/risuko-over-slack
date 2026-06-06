@@ -1,0 +1,23 @@
+{
+	"name": "risuko-over-slack",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"fmt": "biome format --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.8.1",
+	"dependencies": {
+		"@risuko/js-darwin-arm64": "^0.3.6",
+		"@risuko/risuko-js": "^0.3.6",
+		"@slack/bolt": "^4.7.3",
+		"dotenv": "^17.4.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.16"
+	}
+}
